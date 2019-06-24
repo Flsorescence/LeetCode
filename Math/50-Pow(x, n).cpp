@@ -17,7 +17,7 @@ class Solution {
 public:
     double myPow(double x, int n) {
         double res = 1.00000 ;
-        for(int i = n ; i != 0 ; i /=2 )
+        for(int i = n ; i != 0 ; i /= 2 )
         {
             if(i%2 != 0 )  res *= x ;
             x *=x ; 
